@@ -103,12 +103,12 @@ int main()
             break;
         case 2:
             printArray(scrambled);
-            bubbleSort(scrambled, AR_SIZE);
+            selectionSort(scrambled, AR_SIZE);
             printArray(scrambled);
             break;
         case 3:
             printArray(scrambled);
-            bubbleSort(scrambled, AR_SIZE);
+            insertionSort(scrambled, AR_SIZE);
             printArray(scrambled);
             break;
         default:
